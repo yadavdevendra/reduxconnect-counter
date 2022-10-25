@@ -1,5 +1,5 @@
 import { combineReducers } from 'redux'
-import cakeReducer from './cake/cakeReducer'
+import cakeReducer from '../../cake/cakeReducer'
 
 
 const rootReducer = combineReducers({

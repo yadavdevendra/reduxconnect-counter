@@ -1,9 +1,9 @@
 import React from 'react'
 import { connect } from 'react-redux'
-import { addbuyCake, subsbuyCake } from "../redux";
+import { addbuyCake, subsbuyCake } from "../cake/cakeReducer";
 
 function CakeContainer (props) {
-  console.log(props);
+
   return (
     <div>
       <h2>Number of cakes - {props.numOfCakes} </h2>
